@@ -306,10 +306,15 @@ header .navbar {
   display: none;
 }
 
+.heading {
+      font-size: 2.3rem;
+    max-width: 600px;
+    line-height: 70px;
+    color: white;
+  padding-bottom: 20px;
+}
+
 @media (max-width: 768px) {
-  .items {
-    margin-top: 150px
-  }
 
   .gallery {
     min-height: 700px;
@@ -436,6 +441,15 @@ header .navbar {
     color: #C06B3E;
   }
 
+  .heading {
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 70px;
+    color: white;
+  padding-top: 50px;
+}
+
+
 } /*end of media */
 body {
   background-image: url("https://images.unsplash.com/photo-1505843513577-22bb7d21e455?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -457,6 +471,7 @@ body::before {
   background: rgba(0, 0, 0, 0.65) fixed;
   z-index: -1; /* Ensure the overlay is below the content */
 }
+
 
 .gallery-wrapper {
   position: relative;
