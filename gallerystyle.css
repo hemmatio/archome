@@ -496,6 +496,12 @@ body::before {
   z-index: -1;
 }
 
+.gallery-wrapper .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   ::selection {
     color: #fff;
     background: none;
