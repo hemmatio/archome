@@ -125,6 +125,16 @@ header .navbar {
   background: #C06B3E;
 }
 
+.hero-section .testimonials {
+  color: white;
+  margin-top: 20px; /* adjust as needed */
+}
+
+.hero-section .names {
+  text-align: right;
+  color: white;
+}
+
 #close-menu-btn {
   position: absolute;
   right: 20px;
