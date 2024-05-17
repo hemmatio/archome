@@ -212,6 +212,11 @@ header .navbar {
   text-decoration: none;
 }
 
+.navbar .logo img {
+  width: auto;
+  height: 80px;
+}
+
 .navbar .logo span {
   color: #C06B3E;
 }

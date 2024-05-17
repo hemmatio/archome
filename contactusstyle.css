@@ -342,6 +342,11 @@ header .navbar {
   color: #C06B3E;
 }
 
+.navbar .logo img {
+  width: auto;
+  height: 80px;
+}
+
 .navbar .menu-links {
   display: flex;
   list-style: none;
