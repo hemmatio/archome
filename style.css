@@ -63,7 +63,7 @@ header .navbar {
 }
 
 .hero-section {
-  margin: 34vh 34vh 0vh 34vh;
+  margin: 25vh 34vh 0vh 34vh;
   /*height: 100vh;*/
   /*background-image: url("https://images.unsplash.com/photo-1505843513577-22bb7d21e455?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
   background-position: center;
@@ -87,7 +87,7 @@ header .navbar {
 /*}*/
 
 .hero-section .content {
-  max-width: 1200px;
+  /*max-width: 600px;*/
   margin: 0 auto;
   width: 100%;
   color: #fff;
@@ -103,7 +103,7 @@ header .navbar {
 
 .hero-section .content p {
   font-weight: 300;
-  max-width: 600px;
+  /*max-width: 600px;*/
   margin-top: 15px;
 }
 
@@ -237,6 +237,11 @@ header .navbar {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+}
+
+  .navbar .logo img {
+  width: auto;
+  height: 60px;
 }
 
 }

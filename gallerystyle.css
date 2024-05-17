@@ -454,6 +454,10 @@ header .navbar {
   padding-top: 50px;
 }
 
+.navbar .logo img {
+  width: auto;
+  height: 60px;
+}
 
 } /*end of media */
 body {
