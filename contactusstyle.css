@@ -11,10 +11,10 @@
 }
 
 body {
-    margin-top: 155px;
+    margin-top: 243px;
     display: flex;
-    padding: 0 10px;
-    min-height: 80vh;
+    /*padding: 0 20px;*/
+    min-height: 75vh;
     background: black;
     align-items: flex-start;
     justify-content: center;
