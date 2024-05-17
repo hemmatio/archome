@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archome Improvements | About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="home.html">Archome<span>.</span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+      <div class="content">
+        <h2>About Us</h2>
+        <p>
+          Founded in 2000 and based in Toronto, Canada, Archome Improvements has been at the forefront of home renovations for over two decades. Our commitment to exceptional craftsmanship and unparalleled quality has established us as a trusted name in the industry.
+            Each project we undertake is backed by a highly skilled team of tradesmen, whose expertise spans across various domains, including landscaping, flooring, plumbing, lighting, and refurnishing.
+            Our team’s dedication to excellence ensures that every detail is meticulously attended to, resulting in stunning transformations that exceed expectations.
+            At Archome Improvements, we believe that your home should be a reflection of your dreams and aspirations.
+            Our holistic approach to home renovations means that we not only enhance the aesthetic appeal of your space but also its functionality and comfort.
+            Our customers consistently express their satisfaction with the services we provide, appreciating our professionalism, attention to detail, and unwavering commitment to quality.
+            Whether it’s a minor update or a major renovation, we are dedicated to delivering results that leave our clients delighted and proud of their homes.
+            Join the countless satisfied customers who have trusted Archome Improvements to bring their vision to life.
+        </p>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+        <!-- Add your footer content here -->
+    </footer>
+
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+      // Toggle mobile menu on hamburger button click
+      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+      // Close mobile menu on close button click
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+</body>
+</html>
