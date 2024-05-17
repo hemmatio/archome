@@ -21,7 +21,7 @@ body{
   background: #0D6EFD;
 }
 .wrapper{
-  width: 715px;
+  width: 1015px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
@@ -126,7 +126,7 @@ form .button-area{
   margin-left: 30px;
   display: none;
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
   .wrapper header{
     text-align: center;
   }
@@ -158,4 +158,33 @@ form .button-area{
     margin: 20px 0 0;
     text-align: center;
   }
+  .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-info {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+form {
+  flex: 1;
+}
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+form {
+  flex: 2;
 }
